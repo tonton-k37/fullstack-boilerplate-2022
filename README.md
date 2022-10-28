@@ -16,7 +16,12 @@
 
 ## Overview
 
-This is a boiler plate project using lib's I like today.
+<p align="center">This is a boilerplate project using lib's I like today.</p>
+
+<div align="center">
+<a href="./LISCENSE.md" alt="mit liscence">
+<img src=".readme_images/mit.svg" alt="drawing" width="60" style="margin: 8px"/></a>
+</div>
 
 | Package         | What For               | Link                                                |
 | --------------- | ---------------------- | --------------------------------------------------- |
