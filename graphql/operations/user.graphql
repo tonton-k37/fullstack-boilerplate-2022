@@ -1,0 +1,28 @@
+query FindUser($id: ID!) {
+  userById(id: $id) {
+    ...UserFields
+  }
+}
+
+mutation CreateUser($email: String!, $password: String!, $provider: String!) {
+  createUser(email: $email, password: $password, provider: $provider) {
+    ...UserFields
+  }
+}
+
+mutation UpdateUser($password: String, $uid: String) {
+  updateUser(password: $password, uid: $uid) {
+    ...UserFields
+  }
+}
+
+fragment UserFields on User {
+  id
+  uid
+  email
+  password
+  provider
+  isDeleted
+  createdAt
+  updatedAt
+}

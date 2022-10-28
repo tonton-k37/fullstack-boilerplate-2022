@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AuthLinks Component Show Log Out When no session 1`] = `
+<div>
+  <button
+    class="chakra-button css-4xx2wk"
+    type="button"
+  >
+    sign out
+  </button>
+</div>
+`;
